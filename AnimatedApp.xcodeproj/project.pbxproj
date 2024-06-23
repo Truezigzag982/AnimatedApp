@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E84E1EF2C282D5700D42F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E84E1EE2C282D5700D42F3A /* Assets.xcassets */; };
+		7E8FBFDC2C282E1A00A212B6 /* JokesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FBFDB2C282E1A00A212B6 /* JokesView.swift */; };
 		7E9E4A8C2C2428020082A208 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 7E9E4A8B2C2428020082A208 /* GoogleSignIn */; };
 		7E9E4A8E2C2428020082A208 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7E9E4A8D2C2428020082A208 /* GoogleSignInSwift */; };
 		7E9E4ABD2C26F9680082A208 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9E4ABC2C26F9680082A208 /* WidgetKit.framework */; };
@@ -21,7 +23,6 @@
 		7E9E4AD62C2701B70082A208 /* PunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E4AD52C2701B70082A208 /* PunView.swift */; };
 		9611278D27F364E500977157 /* AnimatedAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611278C27F364E500977157 /* AnimatedAppApp.swift */; };
 		9611278F27F364E500977157 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611278E27F364E500977157 /* ContentView.swift */; };
-		9611279127F364E600977157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9611279027F364E600977157 /* Assets.xcassets */; };
 		9611279427F364E600977157 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9611279327F364E600977157 /* Preview Assets.xcassets */; };
 		961127D927F3661000977157 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 961127D527F3661000977157 /* Inter-Regular.ttf */; };
 		961127DA27F3661000977157 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 961127D627F3661000977157 /* Poppins-Bold.ttf */; };
@@ -73,6 +74,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7E84E1EE2C282D5700D42F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E8FBFDB2C282E1A00A212B6 /* JokesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesView.swift; sourceTree = "<group>"; };
 		7E9E4ABA2C26F9680082A208 /* RisataExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RisataExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9E4ABC2C26F9680082A208 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		7E9E4ABE2C26F9680082A208 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -87,7 +90,6 @@
 		9611278927F364E500977157 /* AnimatedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9611278C27F364E500977157 /* AnimatedAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAppApp.swift; sourceTree = "<group>"; };
 		9611278E27F364E500977157 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9611279027F364E600977157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9611279327F364E600977157 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		961127D527F3661000977157 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		961127D627F3661000977157 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 		9611278B27F364E500977157 /* AnimatedApp */ = {
 			isa = PBXGroup;
 			children = (
+				7E84E1EE2C282D5700D42F3A /* Assets.xcassets */,
 				961127DC27F49D6700977157 /* Info.plist */,
 				9611278C27F364E500977157 /* AnimatedAppApp.swift */,
 				9657F6D62804C92D009602A2 /* Navigation */,
@@ -190,7 +193,6 @@
 				9684BA022808B7F000E3C501 /* Model */,
 				9611279A27F3660200977157 /* RiveAssets */,
 				961127D327F3661000977157 /* Fonts */,
-				9611279027F364E600977157 /* Assets.xcassets */,
 				9611279227F364E600977157 /* Preview Content */,
 			);
 			path = AnimatedApp;
@@ -246,6 +248,7 @@
 				9657F6D12804C8DB009602A2 /* OnboardingView.swift */,
 				9657F6D32804C8E3009602A2 /* SignInView.swift */,
 				7E9E4AD52C2701B70082A208 /* PunView.swift */,
+				7E8FBFDB2C282E1A00A212B6 /* JokesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -386,8 +389,8 @@
 				9611279427F364E600977157 /* Preview Assets.xcassets in Resources */,
 				961127D927F3661000977157 /* Inter-Regular.ttf in Resources */,
 				969E9B4627F75729003A124E /* shapes.riv in Resources */,
+				7E84E1EF2C282D5700D42F3A /* Assets.xcassets in Resources */,
 				969E9B5927FF1865003A124E /* icons.riv in Resources */,
-				9611279127F364E600977157 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +421,7 @@
 				7E9E4AD62C2701B70082A208 /* PunView.swift in Sources */,
 				9657F6CB2804BA2F009602A2 /* CustomTextField.swift in Sources */,
 				9611278F27F364E500977157 /* ContentView.swift in Sources */,
+				7E8FBFDC2C282E1A00A212B6 /* JokesView.swift in Sources */,
 				9657F6C72800CABE009602A2 /* CustomButton.swift in Sources */,
 				9684B9E4280724E500E3C501 /* HomeView.swift in Sources */,
 				9611278D27F364E500977157 /* AnimatedAppApp.swift in Sources */,
