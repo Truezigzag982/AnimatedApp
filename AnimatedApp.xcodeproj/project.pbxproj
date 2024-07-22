@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E11A5F12C3E765200E17AC1 /* RiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11A5F02C3E765200E17AC1 /* RiddleView.swift */; };
+		7E11A5F32C3E7A8F00E17AC1 /* ERiddlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11A5F22C3E7A8F00E17AC1 /* ERiddlesView.swift */; };
+		7E11A5F52C3E829100E17AC1 /* KRiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11A5F42C3E829100E17AC1 /* KRiddleView.swift */; };
+		7E11A5F72C3E86AC00E17AC1 /* FRiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11A5F62C3E86AC00E17AC1 /* FRiddleView.swift */; };
+		7E11A5F92C3E876A00E17AC1 /* MRiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11A5F82C3E876A00E17AC1 /* MRiddleView.swift */; };
+		7E77F7AE2C3BE37D00569FF8 /* OneLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E77F7AD2C3BE37D00569FF8 /* OneLView.swift */; };
+		7E7996C52C4511F700FE4FA1 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7996C42C4511F700FE4FA1 /* NewsView.swift */; };
+		7E83137C2C46863B00D951F4 /* BTeaserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E83137B2C46863B00D951F4 /* BTeaserView.swift */; };
+		7E84E1EF2C282D5700D42F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E84E1EE2C282D5700D42F3A /* Assets.xcassets */; };
+		7E8FBFDC2C282E1A00A212B6 /* JokesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FBFDB2C282E1A00A212B6 /* JokesView.swift */; };
+		7E9E4A8C2C2428020082A208 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 7E9E4A8B2C2428020082A208 /* GoogleSignIn */; };
+		7E9E4A8E2C2428020082A208 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7E9E4A8D2C2428020082A208 /* GoogleSignInSwift */; };
+		7E9E4ABD2C26F9680082A208 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9E4ABC2C26F9680082A208 /* WidgetKit.framework */; };
+		7E9E4ABF2C26F9680082A208 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9E4ABE2C26F9680082A208 /* SwiftUI.framework */; };
+		7E9E4AC22C26F9680082A208 /* RisataBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E4AC12C26F9680082A208 /* RisataBundle.swift */; };
+		7E9E4AC42C26F9680082A208 /* RisataLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E4AC32C26F9680082A208 /* RisataLiveActivity.swift */; };
+		7E9E4AC62C26F9680082A208 /* Risata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E4AC52C26F9680082A208 /* Risata.swift */; };
+		7E9E4AC82C26F9680082A208 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E4AC72C26F9680082A208 /* AppIntent.swift */; };
+		7E9E4ACA2C26F96A0082A208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E4AC92C26F96A0082A208 /* Assets.xcassets */; };
+		7E9E4ACE2C26F96A0082A208 /* RisataExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7E9E4ABA2C26F9680082A208 /* RisataExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E9E4AD42C26FE360082A208 /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E4AD32C26FE360082A208 /* Jokes.swift */; };
+		7E9E4AD62C2701B70082A208 /* PunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E4AD52C2701B70082A208 /* PunView.swift */; };
+		7EAE83FD2C37E6DB00F6F0F1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE83FC2C37E6DB00F6F0F1 /* TabBar.swift */; };
+		9611278D27F364E500977157 /* AnimatedAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611278C27F364E500977157 /* AnimatedAppApp.swift */; };
+		9611278F27F364E500977157 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611278E27F364E500977157 /* ContentView.swift */; };
+		9611279427F364E600977157 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9611279327F364E600977157 /* Preview Assets.xcassets */; };
+		961127D927F3661000977157 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 961127D527F3661000977157 /* Inter-Regular.ttf */; };
+		961127DA27F3661000977157 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 961127D627F3661000977157 /* Poppins-Bold.ttf */; };
+		961127DB27F3661000977157 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 961127D727F3661000977157 /* Inter-SemiBold.ttf */; };
+		9657F6BD27FF5E38009602A2 /* check.riv in Resources */ = {isa = PBXBuildFile; fileRef = 9657F6BC27FF5E38009602A2 /* check.riv */; };
+		9657F6BF27FF67D6009602A2 /* house.riv in Resources */ = {isa = PBXBuildFile; fileRef = 9657F6BE27FF67D6009602A2 /* house.riv */; };
+		9657F6C52800CA56009602A2 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657F6C42800CA56009602A2 /* CustomFont.swift */; };
+		9657F6C72800CABE009602A2 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657F6C62800CABE009602A2 /* CustomButton.swift */; };
+		9657F6CB2804BA2F009602A2 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657F6CA2804BA2F009602A2 /* CustomTextField.swift */; };
+		9657F6CD2804BA4C009602A2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657F6CC2804BA4C009602A2 /* Extensions.swift */; };
+		9657F6D22804C8DB009602A2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657F6D12804C8DB009602A2 /* OnboardingView.swift */; };
+		9657F6D42804C8E3009602A2 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657F6D32804C8E3009602A2 /* SignInView.swift */; };
+		9657F6E22805FAB5009602A2 /* button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 9657F6E12805FAB5009602A2 /* button.riv */; };
+		9684B9E4280724E500E3C501 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684B9E3280724E500E3C501 /* HomeView.swift */; };
+		9684B9FB28086D0D00E3C501 /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684B9FA28086D0D00E3C501 /* HCard.swift */; };
+		9684B9FD28086FC900E3C501 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684B9FC28086FC900E3C501 /* VCard.swift */; };
+		9684B9FF2808B7D700E3C501 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684B9FE2808B7D700E3C501 /* Course.swift */; };
+		9684BA012808B7DE00E3C501 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684BA002808B7DE00E3C501 /* CourseSection.swift */; };
+		968D92B228104D3500C065F5 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D92B128104D3500C065F5 /* SideMenu.swift */; };
+		968D92D7281211D600C065F5 /* confetti.riv in Resources */ = {isa = PBXBuildFile; fileRef = 968D92D6281211D600C065F5 /* confetti.riv */; };
+		968D92DB28174C3700C065F5 /* menu_button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 968D92DA28174C3700C065F5 /* menu_button.riv */; };
+		969E9B4427F64249003A124E /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 969E9B4327F64249003A124E /* RiveRuntime */; };
+		969E9B4627F75729003A124E /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = 969E9B4527F75729003A124E /* shapes.riv */; };
+		969E9B5927FF1865003A124E /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = 969E9B5827FF1865003A124E /* icons.riv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E9E4ACC2C26F96A0082A208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9611278127F364E500977157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E9E4AB92C26F9680082A208;
+			remoteInfo = RisataExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E9E4AD22C26F96A0082A208 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7E9E4ACE2C26F96A0082A208 /* RisataExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E11A5F02C3E765200E17AC1 /* RiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiddleView.swift; sourceTree = "<group>"; };
+		7E11A5F22C3E7A8F00E17AC1 /* ERiddlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERiddlesView.swift; sourceTree = "<group>"; };
+		7E11A5F42C3E829100E17AC1 /* KRiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRiddleView.swift; sourceTree = "<group>"; };
+		7E11A5F62C3E86AC00E17AC1 /* FRiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRiddleView.swift; sourceTree = "<group>"; };
+		7E11A5F82C3E876A00E17AC1 /* MRiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRiddleView.swift; sourceTree = "<group>"; };
+		7E77F7AD2C3BE37D00569FF8 /* OneLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLView.swift; sourceTree = "<group>"; };
+		7E7996C42C4511F700FE4FA1 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		7E83137B2C46863B00D951F4 /* BTeaserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTeaserView.swift; sourceTree = "<group>"; };
+		7E84E1EE2C282D5700D42F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E8FBFDB2C282E1A00A212B6 /* JokesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesView.swift; sourceTree = "<group>"; };
+		7E9E4ABA2C26F9680082A208 /* RisataExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RisataExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E9E4ABC2C26F9680082A208 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		7E9E4ABE2C26F9680082A208 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7E9E4AC12C26F9680082A208 /* RisataBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RisataBundle.swift; sourceTree = "<group>"; };
+		7E9E4AC32C26F9680082A208 /* RisataLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RisataLiveActivity.swift; sourceTree = "<group>"; };
+		7E9E4AC52C26F9680082A208 /* Risata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Risata.swift; sourceTree = "<group>"; };
+		7E9E4AC72C26F9680082A208 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		7E9E4AC92C26F96A0082A208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E9E4ACB2C26F96A0082A208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E9E4AD32C26FE360082A208 /* Jokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
+		7E9E4AD52C2701B70082A208 /* PunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunView.swift; sourceTree = "<group>"; };
+		7EAE83FC2C37E6DB00F6F0F1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		9611278927F364E500977157 /* AnimatedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9611278C27F364E500977157 /* AnimatedAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAppApp.swift; sourceTree = "<group>"; };
+		9611278E27F364E500977157 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9611279327F364E600977157 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		961127D527F3661000977157 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		961127D627F3661000977157 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		961127D727F3661000977157 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		961127DC27F49D6700977157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9657F6BC27FF5E38009602A2 /* check.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = check.riv; sourceTree = "<group>"; };
+		9657F6BE27FF67D6009602A2 /* house.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.riv; sourceTree = "<group>"; };
+		9657F6C42800CA56009602A2 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		9657F6C62800CABE009602A2 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		9657F6CA2804BA2F009602A2 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		9657F6CC2804BA4C009602A2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9657F6D12804C8DB009602A2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		9657F6D32804C8E3009602A2 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		9657F6E12805FAB5009602A2 /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
+		9684B9E3280724E500E3C501 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9684B9FA28086D0D00E3C501 /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
+		9684B9FC28086FC900E3C501 /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		9684B9FE2808B7D700E3C501 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		9684BA002808B7DE00E3C501 /* CourseSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		968D92B128104D3500C065F5 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		968D92D6281211D600C065F5 /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
+		968D92DA28174C3700C065F5 /* menu_button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu_button.riv; sourceTree = "<group>"; };
+		969E9B4527F75729003A124E /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
+		969E9B5827FF1865003A124E /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E9E4AB72C26F9680082A208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9E4ABF2C26F9680082A208 /* SwiftUI.framework in Frameworks */,
+				7E9E4ABD2C26F9680082A208 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9611278627F364E500977157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9E4A8E2C2428020082A208 /* GoogleSignInSwift in Frameworks */,
+				969E9B4427F64249003A124E /* RiveRuntime in Frameworks */,
+				7E9E4A8C2C2428020082A208 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E9E4ABB2C26F9680082A208 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E9E4ABC2C26F9680082A208 /* WidgetKit.framework */,
+				7E9E4ABE2C26F9680082A208 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E9E4AC02C26F9680082A208 /* Risata */ = {
+			isa = PBXGroup;
+			children = (
+				7E9E4AC12C26F9680082A208 /* RisataBundle.swift */,
+				7E9E4AC32C26F9680082A208 /* RisataLiveActivity.swift */,
+				7E9E4AC52C26F9680082A208 /* Risata.swift */,
+				7E9E4AC72C26F9680082A208 /* AppIntent.swift */,
+				7E9E4AC92C26F96A0082A208 /* Assets.xcassets */,
+				7E9E4ACB2C26F96A0082A208 /* Info.plist */,
+			);
+			path = Risata;
+			sourceTree = "<group>";
+		};
+		9611278027F364E500977157 = {
+			isa = PBXGroup;
+			children = (
+				9611278B27F364E500977157 /* AnimatedApp */,
+				7E9E4AC02C26F9680082A208 /* Risata */,
+				7E9E4ABB2C26F9680082A208 /* Frameworks */,
+				9611278A27F364E500977157 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9611278A27F364E500977157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9611278927F364E500977157 /* AnimatedApp.app */,
+				7E9E4ABA2C26F9680082A208 /* RisataExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9611278B27F364E500977157 /* AnimatedApp */ = {
+			isa = PBXGroup;
+			children = (
+				7E84E1EE2C282D5700D42F3A /* Assets.xcassets */,
+				961127DC27F49D6700977157 /* Info.plist */,
+				9611278C27F364E500977157 /* AnimatedAppApp.swift */,
+				9657F6D62804C92D009602A2 /* Navigation */,
+				9657F6D52804C91D009602A2 /* Views */,
+				9684B9F928086C6100E3C501 /* Components */,
+				9657F6CE2804C8AB009602A2 /* Styles */,
+				9684BA022808B7F000E3C501 /* Model */,
+				9611279A27F3660200977157 /* RiveAssets */,
+				961127D327F3661000977157 /* Fonts */,
+				9611279227F364E600977157 /* Preview Content */,
+			);
+			path = AnimatedApp;
+			sourceTree = "<group>";
+		};
+		9611279227F364E600977157 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9611279327F364E600977157 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9611279A27F3660200977157 /* RiveAssets */ = {
+			isa = PBXGroup;
+			children = (
+				968D92D6281211D600C065F5 /* confetti.riv */,
+				9657F6E12805FAB5009602A2 /* button.riv */,
+				9657F6BE27FF67D6009602A2 /* house.riv */,
+				968D92DA28174C3700C065F5 /* menu_button.riv */,
+				9657F6BC27FF5E38009602A2 /* check.riv */,
+				969E9B5827FF1865003A124E /* icons.riv */,
+				969E9B4527F75729003A124E /* shapes.riv */,
+			);
+			path = RiveAssets;
+			sourceTree = "<group>";
+		};
+		961127D327F3661000977157 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				961127D527F3661000977157 /* Inter-Regular.ttf */,
+				961127D627F3661000977157 /* Poppins-Bold.ttf */,
+				961127D727F3661000977157 /* Inter-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9657F6CE2804C8AB009602A2 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				9657F6CC2804BA4C009602A2 /* Extensions.swift */,
+				9657F6C42800CA56009602A2 /* CustomFont.swift */,
+				9657F6CA2804BA2F009602A2 /* CustomTextField.swift */,
+				9657F6C62800CABE009602A2 /* CustomButton.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		9657F6D52804C91D009602A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9684B9E3280724E500E3C501 /* HomeView.swift */,
+				7E83137B2C46863B00D951F4 /* BTeaserView.swift */,
+				7E11A5F02C3E765200E17AC1 /* RiddleView.swift */,
+				7E11A5F42C3E829100E17AC1 /* KRiddleView.swift */,
+				7E11A5F62C3E86AC00E17AC1 /* FRiddleView.swift */,
+				7E11A5F82C3E876A00E17AC1 /* MRiddleView.swift */,
+				7E11A5F22C3E7A8F00E17AC1 /* ERiddlesView.swift */,
+				9657F6D12804C8DB009602A2 /* OnboardingView.swift */,
+				9657F6D32804C8E3009602A2 /* SignInView.swift */,
+				7E9E4AD52C2701B70082A208 /* PunView.swift */,
+				7E8FBFDB2C282E1A00A212B6 /* JokesView.swift */,
+				7E77F7AD2C3BE37D00569FF8 /* OneLView.swift */,
+				7E7996C42C4511F700FE4FA1 /* NewsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9657F6D62804C92D009602A2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9611278E27F364E500977157 /* ContentView.swift */,
+				968D92B128104D3500C065F5 /* SideMenu.swift */,
+				7EAE83FC2C37E6DB00F6F0F1 /* TabBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		9684B9F928086C6100E3C501 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9684B9FA28086D0D00E3C501 /* HCard.swift */,
+				9684B9FC28086FC900E3C501 /* VCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9684BA022808B7F000E3C501 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9684B9FE2808B7D700E3C501 /* Course.swift */,
+				9684BA002808B7DE00E3C501 /* CourseSection.swift */,
+				7E9E4AD32C26FE360082A208 /* Jokes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E9E4AB92C26F9680082A208 /* RisataExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E9E4ACF2C26F96A0082A208 /* Build configuration list for PBXNativeTarget "RisataExtension" */;
+			buildPhases = (
+				7E9E4AB62C26F9680082A208 /* Sources */,
+				7E9E4AB72C26F9680082A208 /* Frameworks */,
+				7E9E4AB82C26F9680082A208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RisataExtension;
+			productName = RisataExtension;
+			productReference = 7E9E4ABA2C26F9680082A208 /* RisataExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9611278827F364E500977157 /* AnimatedApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9611279727F364E600977157 /* Build configuration list for PBXNativeTarget "AnimatedApp" */;
+			buildPhases = (
+				9611278527F364E500977157 /* Sources */,
+				9611278627F364E500977157 /* Frameworks */,
+				9611278727F364E500977157 /* Resources */,
+				7E9E4AD22C26F96A0082A208 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E9E4ACD2C26F96A0082A208 /* PBXTargetDependency */,
+			);
+			name = AnimatedApp;
+			packageProductDependencies = (
+				969E9B4327F64249003A124E /* RiveRuntime */,
+				7E9E4A8B2C2428020082A208 /* GoogleSignIn */,
+				7E9E4A8D2C2428020082A208 /* GoogleSignInSwift */,
+			);
+			productName = AnimatedApp;
+			productReference = 9611278927F364E500977157 /* AnimatedApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9611278127F364E500977157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					7E9E4AB92C26F9680082A208 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9611278827F364E500977157 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 9611278427F364E500977157 /* Build configuration list for PBXProject "AnimatedApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9611278027F364E500977157;
+			packageReferences = (
+				969E9B4227F64249003A124E /* XCRemoteSwiftPackageReference "rive-ios" */,
+				7E9E4A8A2C2428020082A208 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 9611278A27F364E500977157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9611278827F364E500977157 /* AnimatedApp */,
+				7E9E4AB92C26F9680082A208 /* RisataExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E9E4AB82C26F9680082A208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9E4ACA2C26F96A0082A208 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9611278727F364E500977157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961127DB27F3661000977157 /* Inter-SemiBold.ttf in Resources */,
+				968D92D7281211D600C065F5 /* confetti.riv in Resources */,
+				968D92DB28174C3700C065F5 /* menu_button.riv in Resources */,
+				9657F6BF27FF67D6009602A2 /* house.riv in Resources */,
+				961127DA27F3661000977157 /* Poppins-Bold.ttf in Resources */,
+				9657F6BD27FF5E38009602A2 /* check.riv in Resources */,
+				9657F6E22805FAB5009602A2 /* button.riv in Resources */,
+				9611279427F364E600977157 /* Preview Assets.xcassets in Resources */,
+				961127D927F3661000977157 /* Inter-Regular.ttf in Resources */,
+				969E9B4627F75729003A124E /* shapes.riv in Resources */,
+				7E84E1EF2C282D5700D42F3A /* Assets.xcassets in Resources */,
+				969E9B5927FF1865003A124E /* icons.riv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E9E4AB62C26F9680082A208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9E4AC42C26F9680082A208 /* RisataLiveActivity.swift in Sources */,
+				7E9E4AC82C26F9680082A208 /* AppIntent.swift in Sources */,
+				7E9E4AC62C26F9680082A208 /* Risata.swift in Sources */,
+				7E9E4AC22C26F9680082A208 /* RisataBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9611278527F364E500977157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E11A5F92C3E876A00E17AC1 /* MRiddleView.swift in Sources */,
+				7E11A5F72C3E86AC00E17AC1 /* FRiddleView.swift in Sources */,
+				9684B9FB28086D0D00E3C501 /* HCard.swift in Sources */,
+				9657F6C52800CA56009602A2 /* CustomFont.swift in Sources */,
+				9684B9FD28086FC900E3C501 /* VCard.swift in Sources */,
+				9657F6D22804C8DB009602A2 /* OnboardingView.swift in Sources */,
+				7E9E4AD42C26FE360082A208 /* Jokes.swift in Sources */,
+				7E11A5F32C3E7A8F00E17AC1 /* ERiddlesView.swift in Sources */,
+				9684BA012808B7DE00E3C501 /* CourseSection.swift in Sources */,
+				7E83137C2C46863B00D951F4 /* BTeaserView.swift in Sources */,
+				7E11A5F12C3E765200E17AC1 /* RiddleView.swift in Sources */,
+				7E9E4AD62C2701B70082A208 /* PunView.swift in Sources */,
+				7E77F7AE2C3BE37D00569FF8 /* OneLView.swift in Sources */,
+				9657F6CB2804BA2F009602A2 /* CustomTextField.swift in Sources */,
+				7E7996C52C4511F700FE4FA1 /* NewsView.swift in Sources */,
+				9611278F27F364E500977157 /* ContentView.swift in Sources */,
+				7EAE83FD2C37E6DB00F6F0F1 /* TabBar.swift in Sources */,
+				7E8FBFDC2C282E1A00A212B6 /* JokesView.swift in Sources */,
+				9657F6C72800CABE009602A2 /* CustomButton.swift in Sources */,
+				9684B9E4280724E500E3C501 /* HomeView.swift in Sources */,
+				7E11A5F52C3E829100E17AC1 /* KRiddleView.swift in Sources */,
+				9611278D27F364E500977157 /* AnimatedAppApp.swift in Sources */,
+				9657F6CD2804BA4C009602A2 /* Extensions.swift in Sources */,
+				968D92B228104D3500C065F5 /* SideMenu.swift in Sources */,
+				9684B9FF2808B7D700E3C501 /* Course.swift in Sources */,
+				9657F6D42804C8E3009602A2 /* SignInView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E9E4ACD2C26F96A0082A208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E9E4AB92C26F9680082A208 /* RisataExtension */;
+			targetProxy = 7E9E4ACC2C26F96A0082A208 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E9E4AD02C26F96A0082A208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36JMNLW6AX;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Risata/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Risata;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.designcode.AnimatedApp.Risata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E9E4AD12C26F96A0082A208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36JMNLW6AX;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Risata/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Risata;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.designcode.AnimatedApp.Risata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9611279527F364E600977157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9611279627F364E600977157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9611279827F364E600977157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimatedApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 36JMNLW6AX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimatedApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Risata;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.designcode.AnimatedApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9611279927F364E600977157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimatedApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 36JMNLW6AX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimatedApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Risata;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.designcode.AnimatedApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E9E4ACF2C26F96A0082A208 /* Build configuration list for PBXNativeTarget "RisataExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E9E4AD02C26F96A0082A208 /* Debug */,
+				7E9E4AD12C26F96A0082A208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9611278427F364E500977157 /* Build configuration list for PBXProject "AnimatedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9611279527F364E600977157 /* Debug */,
+				9611279627F364E600977157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9611279727F364E600977157 /* Build configuration list for PBXNativeTarget "AnimatedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9611279827F364E600977157 /* Debug */,
+				9611279927F364E600977157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E9E4A8A2C2428020082A208 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+		969E9B4227F64249003A124E /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E9E4A8B2C2428020082A208 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E9E4A8A2C2428020082A208 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		7E9E4A8D2C2428020082A208 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E9E4A8A2C2428020082A208 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		969E9B4327F64249003A124E /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 969E9B4227F64249003A124E /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9611278127F364E500977157 /* Project object */;
+}
