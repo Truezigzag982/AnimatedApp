@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E11A5F12C3E765200E17AC1 /* RiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11A5F02C3E765200E17AC1 /* RiddleView.swift */; };
+		7E11A5F32C3E7A8F00E17AC1 /* ERiddlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11A5F22C3E7A8F00E17AC1 /* ERiddlesView.swift */; };
+		7E11A5F52C3E829100E17AC1 /* KRiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11A5F42C3E829100E17AC1 /* KRiddleView.swift */; };
+		7E11A5F72C3E86AC00E17AC1 /* FRiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11A5F62C3E86AC00E17AC1 /* FRiddleView.swift */; };
+		7E11A5F92C3E876A00E17AC1 /* MRiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11A5F82C3E876A00E17AC1 /* MRiddleView.swift */; };
+		7E77F7AE2C3BE37D00569FF8 /* OneLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E77F7AD2C3BE37D00569FF8 /* OneLView.swift */; };
+		7E7996C52C4511F700FE4FA1 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7996C42C4511F700FE4FA1 /* NewsView.swift */; };
+		7E83137C2C46863B00D951F4 /* BTeaserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E83137B2C46863B00D951F4 /* BTeaserView.swift */; };
 		7E84E1EF2C282D5700D42F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E84E1EE2C282D5700D42F3A /* Assets.xcassets */; };
 		7E8FBFDC2C282E1A00A212B6 /* JokesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FBFDB2C282E1A00A212B6 /* JokesView.swift */; };
 		7E9E4A8C2C2428020082A208 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 7E9E4A8B2C2428020082A208 /* GoogleSignIn */; };
@@ -21,6 +29,7 @@
 		7E9E4ACE2C26F96A0082A208 /* RisataExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7E9E4ABA2C26F9680082A208 /* RisataExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7E9E4AD42C26FE360082A208 /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E4AD32C26FE360082A208 /* Jokes.swift */; };
 		7E9E4AD62C2701B70082A208 /* PunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E4AD52C2701B70082A208 /* PunView.swift */; };
+		7EAE83FD2C37E6DB00F6F0F1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE83FC2C37E6DB00F6F0F1 /* TabBar.swift */; };
 		9611278D27F364E500977157 /* AnimatedAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611278C27F364E500977157 /* AnimatedAppApp.swift */; };
 		9611278F27F364E500977157 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611278E27F364E500977157 /* ContentView.swift */; };
 		9611279427F364E600977157 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9611279327F364E600977157 /* Preview Assets.xcassets */; };
@@ -74,6 +83,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7E11A5F02C3E765200E17AC1 /* RiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiddleView.swift; sourceTree = "<group>"; };
+		7E11A5F22C3E7A8F00E17AC1 /* ERiddlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERiddlesView.swift; sourceTree = "<group>"; };
+		7E11A5F42C3E829100E17AC1 /* KRiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRiddleView.swift; sourceTree = "<group>"; };
+		7E11A5F62C3E86AC00E17AC1 /* FRiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRiddleView.swift; sourceTree = "<group>"; };
+		7E11A5F82C3E876A00E17AC1 /* MRiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRiddleView.swift; sourceTree = "<group>"; };
+		7E77F7AD2C3BE37D00569FF8 /* OneLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLView.swift; sourceTree = "<group>"; };
+		7E7996C42C4511F700FE4FA1 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		7E83137B2C46863B00D951F4 /* BTeaserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTeaserView.swift; sourceTree = "<group>"; };
 		7E84E1EE2C282D5700D42F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E8FBFDB2C282E1A00A212B6 /* JokesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesView.swift; sourceTree = "<group>"; };
 		7E9E4ABA2C26F9680082A208 /* RisataExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RisataExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +104,7 @@
 		7E9E4ACB2C26F96A0082A208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E9E4AD32C26FE360082A208 /* Jokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
 		7E9E4AD52C2701B70082A208 /* PunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunView.swift; sourceTree = "<group>"; };
+		7EAE83FC2C37E6DB00F6F0F1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		9611278927F364E500977157 /* AnimatedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9611278C27F364E500977157 /* AnimatedAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAppApp.swift; sourceTree = "<group>"; };
 		9611278E27F364E500977157 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -245,10 +263,18 @@
 			isa = PBXGroup;
 			children = (
 				9684B9E3280724E500E3C501 /* HomeView.swift */,
+				7E83137B2C46863B00D951F4 /* BTeaserView.swift */,
+				7E11A5F02C3E765200E17AC1 /* RiddleView.swift */,
+				7E11A5F42C3E829100E17AC1 /* KRiddleView.swift */,
+				7E11A5F62C3E86AC00E17AC1 /* FRiddleView.swift */,
+				7E11A5F82C3E876A00E17AC1 /* MRiddleView.swift */,
+				7E11A5F22C3E7A8F00E17AC1 /* ERiddlesView.swift */,
 				9657F6D12804C8DB009602A2 /* OnboardingView.swift */,
 				9657F6D32804C8E3009602A2 /* SignInView.swift */,
 				7E9E4AD52C2701B70082A208 /* PunView.swift */,
 				7E8FBFDB2C282E1A00A212B6 /* JokesView.swift */,
+				7E77F7AD2C3BE37D00569FF8 /* OneLView.swift */,
+				7E7996C42C4511F700FE4FA1 /* NewsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -258,6 +284,7 @@
 			children = (
 				9611278E27F364E500977157 /* ContentView.swift */,
 				968D92B128104D3500C065F5 /* SideMenu.swift */,
+				7EAE83FC2C37E6DB00F6F0F1 /* TabBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -333,7 +360,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					7E9E4AB92C26F9680082A208 = {
 						CreatedOnToolsVersion = 15.3;
@@ -412,18 +439,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E11A5F92C3E876A00E17AC1 /* MRiddleView.swift in Sources */,
+				7E11A5F72C3E86AC00E17AC1 /* FRiddleView.swift in Sources */,
 				9684B9FB28086D0D00E3C501 /* HCard.swift in Sources */,
 				9657F6C52800CA56009602A2 /* CustomFont.swift in Sources */,
 				9684B9FD28086FC900E3C501 /* VCard.swift in Sources */,
 				9657F6D22804C8DB009602A2 /* OnboardingView.swift in Sources */,
 				7E9E4AD42C26FE360082A208 /* Jokes.swift in Sources */,
+				7E11A5F32C3E7A8F00E17AC1 /* ERiddlesView.swift in Sources */,
 				9684BA012808B7DE00E3C501 /* CourseSection.swift in Sources */,
+				7E83137C2C46863B00D951F4 /* BTeaserView.swift in Sources */,
+				7E11A5F12C3E765200E17AC1 /* RiddleView.swift in Sources */,
 				7E9E4AD62C2701B70082A208 /* PunView.swift in Sources */,
+				7E77F7AE2C3BE37D00569FF8 /* OneLView.swift in Sources */,
 				9657F6CB2804BA2F009602A2 /* CustomTextField.swift in Sources */,
+				7E7996C52C4511F700FE4FA1 /* NewsView.swift in Sources */,
 				9611278F27F364E500977157 /* ContentView.swift in Sources */,
+				7EAE83FD2C37E6DB00F6F0F1 /* TabBar.swift in Sources */,
 				7E8FBFDC2C282E1A00A212B6 /* JokesView.swift in Sources */,
 				9657F6C72800CABE009602A2 /* CustomButton.swift in Sources */,
 				9684B9E4280724E500E3C501 /* HomeView.swift in Sources */,
+				7E11A5F52C3E829100E17AC1 /* KRiddleView.swift in Sources */,
 				9611278D27F364E500977157 /* AnimatedAppApp.swift in Sources */,
 				9657F6CD2804BA4C009602A2 /* Extensions.swift in Sources */,
 				968D92B228104D3500C065F5 /* SideMenu.swift in Sources */,
@@ -514,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -560,7 +597,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -574,6 +611,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -614,7 +652,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -637,13 +675,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AnimatedApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Animated;
+				INFOPLIST_KEY_CFBundleDisplayName = Risata;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -670,13 +708,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AnimatedApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Animated;
+				INFOPLIST_KEY_CFBundleDisplayName = Risata;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
